@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PolinaGram</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PolinaGram</h1>
+        <p>stories:</p>
+        <nav>
+            <button popovertarget="stories_1"><img src="./media/stories_1.jpg" alt="Stories 1"></button>
+            <button popovertarget="stories_2"><img src="./media/stories_2.jpg" alt="Stories 2"></button>
+            <button popovertarget="stories_3"><img src="./media/stories_3.jpg" alt="Stories 3"></button>
+            <button popovertarget="stories_4"><img src="./media/stories_4.jpg" alt="Stories 4"></button>
+        </nav>
+
+        <div id="stories_1" popover>
+            <video src="./media/stories_1.mp4" alt="" controls autoplay></video>
+            <button popovertarget="stories_1" popovertargetaction="hide"> <img src="./media/x.webp" alt="x"></button>
+        </div>
+        
+        <div id="stories_2" popover>
+            <video src="./media/stories_2.mp4" alt="" controls autoplay></video>
+            <button popovertarget="stories_2" popovertargetaction="hide"> <img src="./media/x.webp" alt="x"></button>
+        </div>
+
+        <div id="stories_3" popover>
+            <video src="./media/stories_3.mp4" alt="" controls autoplay></video>
+            <button popovertarget="stories_3" popovertargetaction="hide"> <img src="./media/x.webp" alt="x"></button>
+        </div>
+
+        <div id="stories_4" popover>
+            <video src="./media/stories_4.mp4" alt="" controls autoplay></video>
+            <button popovertarget="stories_4" popovertargetaction="hide"> <img src="./media/x.webp" alt="x"></button>
+        </div>
+
+    </header>
+
+    <div class="info">
+        <button popovertarget="nav_info">Info</button>
+        <button popovertarget="nav_Settings">Settings</button>
+        <button popovertarget="nav_Help">Help</button>
+    </div>
+        
+    <div id="nav_info" popover>
+        <h3>Информация <button popovertarget="nav_info" popovertargetaction="hide"> <img src="./media/x.webp" alt="x"></button></h3>
+        <p>Этот сайт предназначен для тех, кто влюбился в Полинну</p>
+    </div>
+
+    <div id="nav_Settings" popover>
+        <h3>Настройки <button popovertarget="nav_Settings" popovertargetaction="hide"> <img src="./media/x.webp" alt="x"></button></h3>
+        <p>ЫЫЫ тебе тут не место</p>
+    </div>
+
+    <div id="nav_Help" popover>
+        <h3>Помощь <button popovertarget="nav_Help" popovertargetaction="hide"> <img src="./media/x.webp" alt="x"></button></h3>
+        <p>Под "stories" есть круглые фотографии, при нажатии на них будет открываться видео.</p> 
+        <p>При нажатии на фотографию, она увеличится</p>
+    </div>
+
+    <div class="post_1">
+
+        <div class="head_post_1">
+            <img class="ava_post_1" src="./media/ava_post_1.jpg" alt="Аватарка">
+            <h2>@choker</h2>
+        </div>
+
+        <img class="img_post_1" src="./media/post_1.jpg" alt="фото поста 1" draggable="false">
+        <p>Блин, эта девочка такая красивая. <img src="./media/Love_love.webp" alt=""> 
+            Я когда в первый раз её увидел, сразу захотел быть её парнем!! 
+            Мне так становить жарко, когда смотрю на её фото)) <img src="./media/AxAx.webp" alt=""></p>
+    </div>
+    
+    <div class="post_1">
+
+        <div class="head_post_1">
+            <img class="ava_post_1" src="./media/ava_post_2.jpg" alt="Аватарка">
+            <h2>@mellstroy</h2>
+        </div>
+
+        <img class="img_post_1" src="./media/post_2.jpg" alt="фото поста 2" draggable="false">
+        <p>Короче, был я в хамаме и тут мне попадается в тик токе, девчонка. Я значит такой, да, да, нет, нет, да будет свет, 
+            решил ей подарить мерс, а не ебу куда ей писать и пиздец короче.
+        </p>
+    </div>
+    
+    <div class="post_1">
+
+        <div class="head_post_1">
+            <img class="ava_post_1" src="./media/ava_post_3.jpg" alt="Аватарка">
+            <h2>@Alberto</h2>
+        </div>
+
+        <img class="img_post_1" src="./media/post_3.jpg" alt="фото поста 2" draggable="false">
+        <p>Я иногда вот лежу ночью, под одеялом, с запертой дверью и смотрю её фотки, я представляю как она мне... <img src="./media/AxAx.webp" alt="">
+            Мне станоситься так хорошо...</p>
+    </div>
+
+    <div class="post_1">
+
+        <div class="head_post_1">
+            <img class="ava_post_1" src="./media/ava_post_4.jpg" alt="Аватарка">
+            <a href="/code.html">@какой-то_лох</a>
+        </div>
+
+        <img class="img_post_1" src="./media/post_4.jpg" alt="фото поста 2" draggable="false">
+        <p>Увидел я значит эту девочку в тик токе и сразу же захотел с ней встречаться...
+            Но блин, она так классно одеваться, что я как-то и стеснюсь ей писать... <img src="./media/AAA.webp" alt=""><br>
+            <b>Блин, Полин, если увидишь этот пост, то перейди по профилю и напиши мне!!</b></p>
+
+    </div>
+
+    <footer>
+        <a href="https://t.me/nonyck_WW">Твой лошара <img src="/media/love.webp" alt=""></a>
+    </footer>
+
+</body>
+
+</html>
