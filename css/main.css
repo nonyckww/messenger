@@ -89,6 +89,9 @@ nav button {
 
     justify-content: center;
     align-items: center;
+
+    width: 90vw;
+    max-width: 480px;
 }
 
 #stories_1 video,
@@ -96,8 +99,10 @@ nav button {
 #stories_3 video,
 #stories_4 video {
     width: 100%;
-    height: 100%;
+    height: auto;
+    max-height: 80dvh;
     border-radius: 4dvh;
+    display: block;
 }
 
 #stories_1 button,
